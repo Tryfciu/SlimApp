@@ -17,7 +17,6 @@ $app->get('/hello/{name}', function (Request $request, Response $response, array
 // Customer Routes
 require '../src/routes/customers.php';
 
-
 $app->run();
 
 ?>
